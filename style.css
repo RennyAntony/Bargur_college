@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo-img {
+    height: 80px;
+    margin-right:20%;
+    /* Adjust the height as needed */
+}
+::after, ::before {
+text-align:center;
+}
+.text-center{
+    margin:0;
+}
+.align-items-center{
+    width:100%;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    text-align: center;
+}
+
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: no-repeat;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+/* Darker shade on hover */
+.btn:not(:disabled):not(.disabled):hover {
+    background-color: rgb(2, 73, 2);
+}
+.social-icon {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-top:1vw;
+    margin-right: 18px; /* Add some spacing between icons */
+}
+
+/* Optional: Add hover effects */
+.social-icon:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
